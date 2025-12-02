@@ -109,3 +109,23 @@ const App = () => {
 }
 
 export default App*/
+
+
+//below is the code for a simple counter app that is  using React functional components and hooks
+/*import React, {useState} from 'react'
+
+const App = () => {
+  //num is the readable function, setNum is used to update the value of num and useState is initialized with 0(present value)
+  const [num, setNum] = useState(0)
+
+  return (
+    <div>
+      <h3>Counter: {num}</h3>
+      // here we will add buttons to increment and decrement the counter and write the functions inside the onClick attribute }
+      <button onClick={() => setNum(num+10) }>Increment</button> //he value of num by increases by 10 on each click
+      <button onClick={() => setNum(num-10) }>Decrement</button> //the value of num by decreases by 10 on each click
+    </div>
+  )
+}
+
+export default App*/
