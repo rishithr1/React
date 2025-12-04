@@ -128,4 +128,25 @@ const App = () => {
   )
 }
 
-export default App*/
+export default App
+*/
+
+
+// Applying Tailwind CSS in JSX File using className attribute with difference between class and className.
+/*
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      //{/* Applying tailwind css in jsx.}
+      //{/* We dont have "class" because it is a reserved keyword in a javascript.}
+      //{/* For using tailwind css in jsx we have to use "classname" }
+      <h1 className='text-5xl bg-pink-700 text-black'>Hello World!</h1>
+      <h2>Hello World!</h2>
+    </div>
+  )
+}
+
+export default App
+*/
